@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+body{
+/*	background-color:#000000;*/
+	font-family:arial,sans-serif;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+/* Help from https://www.youtube.com/watch?v=9Bmcb_g0s6s
+https://www.youtube.com/watch?v=soNObkJJJOc
+*/
+#mainDiv {
+	width: 100%;
+	height:1500px;
+	background-color: white;
+}
+#navDiv {
+	opacity:0.7;
+	filter: (opacity=70);
+
+}
+#navDiv>ul {
+	width: 100%;
+	height:80px;
+	background:#648DA0;
+	line-height:80px;
+	color:white;
+	margin-right:15px;
+}
+
+#navDiv ul a {
+	text-decoration:none;
+	color:white; 
+	padding:20px;
+}
+#navDiv> ul li  {
+	list-style-type: none;
+	display:inline-block;
+	float:right;
+
+	}
+
+#navDiv> ul li :hover{
+	background: #8FB0BF;
+	transition:all 0.40s;
+}
+
+
+#navDiv h1 {
+	width: 300px;
+	float:left;
+	cursor:pointer;
+	margin-left:15px;
+
+}
+#header h1 {
+	padding-top: 100px;
+	text-align: center;
+	float:none;
+	color: white;
+	font-size: 106px;
+}
+#header2 h1 {
+	padding-top: 100px;
+	text-align: center;
+	float:none;
+	color: white;
+	font-size: 106px;
+}
+#header3 h1 {
+	padding-top: 100px;
+	text-align: center;
+	float:none;
+	color: white;
+	font-size: 106px;
+}
+#header4 h1 {
+	padding-top: 100px;
+	text-align: center;
+	float:none;
+	color: white;
+	font-size: 106px;
+}
+
+#header{
+	height:400px;
+	background-image:url('../../images/1.jpg');
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+#header2{
+	height:400px;
+	background-image:url('../../images/spaghetti.jpg');
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;
+}
+#header3{
+	height:400px;
+	background-image:url('../../images/Pizza.jpg');
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;
+}
+#header4{
+	height:400px;
+	background-image:url('../../images/Cookies.jpg');
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;
+}
+#firstpara h2{
+	padding-top:30px;
+	text-align:center;
+	font-family: "Brush Script MT", cursive;
+	font-size: 70px;
+	font-style: normal;
+
+}
+
+#firstpara p{
+	text-align: center;
+	padding-left: 280px;
+	width:600px;
+	font-family: Papyrus, fantasy;
+	font-size: 20px;
+	font-style: normal;
+}
+
+#secondpara h2 {
+	padding-top:30px;
+	text-align:center;
+	font-family: Papyrus, fantasy; 
+	font-size: 70px;
+	font-style: normal;	
+}
+
+/*http://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy*/
+#ing {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ing td, #ing th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#ing tr:nth-child(even){background-color: #f2f2f2;}
+
+#ing tr:hover {background-color: #ddd;}
+
+#ing th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#thirdpara> p{
+	padding-left: 300px;
+}
+#thirdpara> h1 {
+	text-align: center;
+	padding-top: 12px;
+
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+}
+#thirdpara2> h1 {
+	text-align: center;
+	padding-top: 12px;
+
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+}
+
+#thirdpara2> p{
+	padding-left: 50px;
+}
+
+#fourthpara >h1 {
+	text-align: center;
+	padding-top: 12px;
+
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;	
+}
+#fourthpara>p {
+	padding-left: 50px;
+
+}
+#img h1{
+	padding-top: 30px;
+	text-align: center;
+	float:none;
+	color: black;
+	font-size: 56px;
+
+}
+
+#img {
+text-align: center;
+}
+		
